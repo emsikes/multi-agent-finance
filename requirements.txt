@@ -1,0 +1,15 @@
+crewai
+crewai-tools
+python-dotenv
+yfinance
+firecrawl-py
+azure-storage-blob
+sqlalchemy
+psycopg2-binary
+fastapi
+uvicorn
+streamlit
+requests
+opentelemetry-api
+opentelemetry-sdk
+azure-monitor-opentelemetry
