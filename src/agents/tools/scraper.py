@@ -62,10 +62,11 @@ class SentimentSearchTool(BaseTool):
         try:
             app = FireCrawlApp(api_key=settings.firecrawl_api_key)
             # Perfoem web search: limit results to 3, return in markdown
-            results = app.search(query, params={
-                "limit": 3,
-                "ScrapeOptions": {"formats": ["markdown"]}
-            })
+            results = app.search(
+                query=query,
+                limit=3,
+                scrape_options={"formats": ["markdown"]}
+            )
 
             return str(results)
 

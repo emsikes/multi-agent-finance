@@ -13,3 +13,5 @@ requests
 opentelemetry-api
 opentelemetry-sdk
 azure-monitor-opentelemetry
+azure-storage-blob 
+azure-identity
